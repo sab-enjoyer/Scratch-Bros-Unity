@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RC default
+  m_Shader: {fileID: -6465566751694194690, guid: 7c2e6ad1f0890aa45b8ea39b76208918, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5d66bc53546ff654cbcf034b52b52985, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _brightness: 0
+    m_Colors:
+    - _Color_1: {r: 0.38679248, g: 0.19900727, b: 0, a: 0}
+    - _Color_2: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_3: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 0}
+    - _Color_4: {r: 0.254717, g: 0.254717, b: 0.254717, a: 0}
+    - _new1: {r: 0.882353, g: 0.0627451, b: 0.09411766, a: 1}
+    - _new2: {r: 0.9803922, g: 0.7176471, b: 0.47450984, a: 1}
+    - _new3: {r: 0, g: 0, b: 0, a: 1}
+    - _new4: {r: 1, g: 1, b: 1, a: 1}
+    - _old1: {r: 0.882353, g: 0.0627451, b: 0.09411766, a: 1}
+    - _old2: {r: 0.9803922, g: 0.7176471, b: 0.4745098, a: 1}
+    - _old3: {r: 0, g: 0, b: 0, a: 0}
+    - _old4: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

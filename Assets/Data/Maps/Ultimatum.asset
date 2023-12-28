@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a948ee13791a3844ebaa9706b0eba733, type: 3}
+  m_Name: Ultimatum
+  m_EditorClassIdentifier: 
+  mapName: Ultimatum
+  sprite: {fileID: 21300000, guid: a3c767acc92c9b2438d9484982ba854f, type: 3}
+  song: {fileID: 8300000, guid: e0aabd12bb32e2f40803c36b7efaea01, type: 3}
+  material: {fileID: 2100000, guid: b82d23a15debfd04eadc96761bff4243, type: 2}
+  offset: {x: 0, y: -4.49}
+  stageSelectOffset: {x: 0, y: 0, z: 0}
+  groundBoxes:
+  - pos: {x: 0, y: -3.6}
+    size: {x: 38.6, y: 0.8}
+  - pos: {x: 0, y: -4.8}
+    size: {x: 32, y: 3.2}
+  parallax1:
+    visible: 1
+    sprite: {fileID: 21300000, guid: 224d5ec3752708147a834962aa9cf96a, type: 3}
+    material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    offset: {x: 0, y: 0, z: 0}
+    offsetOnStageSelect: {x: 0, y: 0, z: 0}
+  parallax2:
+    visible: 1
+    sprite: {fileID: 21300000, guid: 85d7b3d9c48f316419ecfe046d592579, type: 3}
+    material: {fileID: 2100000, guid: b82d23a15debfd04eadc96761bff4243, type: 2}
+    offset: {x: 0, y: 0, z: 0}
+    offsetOnStageSelect: {x: 0, y: -37.06, z: 0}
+  parallax3:
+    visible: 1
+    sprite: {fileID: 21300000, guid: 7923f4c64d0089546873eea4039cdf9a, type: 3}
+    material: {fileID: 2100000, guid: b82d23a15debfd04eadc96761bff4243, type: 2}
+    offset: {x: 0, y: 0, z: 0}
+    offsetOnStageSelect: {x: 0, y: -6.9, z: 0}
+  foreground:
+    visible: 0
+    sprite: {fileID: 0}
+    material: {fileID: 0}
+    offset: {x: 0, y: 0, z: 0}
+    offsetOnStageSelect: {x: 0, y: 0, z: 0}
+  mapIcon: {fileID: -1678014837, guid: 9b81a892c7463c1419967dae286c7b68, type: 3}
+  mapNameSprite: {fileID: -1113174650, guid: 994e6c757f645cd439d7a81a2c5a51e6, type: 3}
